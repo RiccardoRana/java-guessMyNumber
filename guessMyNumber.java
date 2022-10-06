@@ -8,7 +8,6 @@ public class guessMyNumber {
 		int numScelto;
 		int tentativi = 0;
 		int num = r.nextInt();
-		System.out.println(num);
 		do {
 			System.out.print("Prova a indovinare il numero: ");
 			numScelto = in.nextInt();
